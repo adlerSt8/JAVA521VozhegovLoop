@@ -1,5 +1,7 @@
 import java.util.Scanner;
+
 //TODO: Программа для создания пирамиды из звездочек с заданным количеством уровней
+
 public class TaskThird {
     public static void main(String[] args) {
 

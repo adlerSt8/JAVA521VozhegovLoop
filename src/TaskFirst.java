@@ -1,5 +1,7 @@
 import java.util.Scanner;
+
 //TODO: Программа, которая запрашивает год и определяет, является ли он високосным
+
 public class TaskFirst {
     public static void main(String[] args) {
 

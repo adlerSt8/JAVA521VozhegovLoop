@@ -1,8 +1,10 @@
 import java.util.Arrays;
 import java.util.Locale;
 import java.util.Scanner;
+
 //TODO: Программа, которая проверяет, является ли введенная строка палиндромом
 // (читается одинаково с начала и с конца, игнорируя пробелы и регистр букв).
+
 public class TaskSecond {
     public static void main(String[] args) {
 

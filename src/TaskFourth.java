@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
-public class TaskFourth {
-    //TODO: Программа, которая найдет и выведет все простые числа
+//TODO: Программа, которая найдет и выведет все простые числа
 // в заданном (задает пользователь) диапазоне
+
+public class TaskFourth {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

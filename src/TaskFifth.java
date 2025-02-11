@@ -5,6 +5,7 @@ import java.util.Scanner;
 // а затем предлагает пользователю угадать это число.
 // Программа должна предоставлять подсказки (слишком маленькое или слишком большое)
 // и продолжать игру, пока пользователь не угадает число.
+
 public class TaskFifth {
     public static void main(String[] args) {
         Random random = new Random();

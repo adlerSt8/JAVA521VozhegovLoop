@@ -1,4 +1,5 @@
 //TODO: Программа, которая выводит все нечетные числа в диапазоне от 1 до 20
+
 public class TaskSixth {
     public static void main(String[] args) {
         System.out.println("Все нечетные числа в диапазоне от 1 до 20: ");

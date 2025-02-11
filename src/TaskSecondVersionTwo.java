@@ -1,28 +1,24 @@
 import java.util.Arrays;
-import java.util.Locale;
 import java.util.Scanner;
 //TODO: Программа, которая проверяет, является ли введенная строка палиндромом
 // (читается одинаково с начала и с конца, игнорируя пробелы и регистр букв).
-public class TaskSecond {
+/*
+   Вторая версия программы проверки строки на палиндром, делать было нечего)
+ */
+public class TaskSecondVersionTwo {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine().replace(" ", "").toLowerCase();
         char[] charArray = string.toCharArray();
-        boolean isPalindrome = true;
+        char[] charArrayNew = new char[charArray.length];
+        int index = 0;
 
-        int startIndex = 0;
-        int endIndex = charArray.length - 1;
-
-        while (startIndex < endIndex) {
-            if (charArray[startIndex] != charArray[endIndex]) {
-                isPalindrome = false;
-                break;
-            }
-            startIndex++;
-            endIndex--;
+        for (int i = charArray.length - 1; i >= 0; i--) {
+            charArrayNew[index] = charArray[i];
+            index++;
         }
-        if (isPalindrome) {
+        if (Arrays.equals(charArray, charArrayNew)) {
             System.out.println("Строка является палиндромом");
         } else {
             System.out.println("Строка не является палиндромом");

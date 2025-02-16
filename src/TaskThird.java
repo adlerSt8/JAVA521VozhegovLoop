@@ -7,12 +7,12 @@ public class TaskThird {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите количество уровней пирамиды: ");
-        int levelStart = scanner.nextInt();
+        int levelStar = scanner.nextInt();
         int count = 0;
 
-        for (int i = 0; i < levelStart; i++) {
-            for (int j = 0; j < levelStart * 2; j++) {
-                if (j >= levelStart - 1 - count && j <= levelStart - 1 + count) {
+        for (int i = 0; i < levelStar; i++) {
+            for (int j = 0; j < levelStar * 2; j++) {
+                if (j >= levelStar - 1 - count && j <= levelStar - 1 + count) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
